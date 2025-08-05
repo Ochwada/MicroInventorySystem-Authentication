@@ -12,7 +12,7 @@ For the Microservices ⬇️
 ---
 ## 🔐 About
 
-**authSocial** is a lightweight Java-based microservice designed to handle OAuth2 authentication for popular social login providers including **Google**, **GitHub**, **Facebook**, and more.
+This is an **Authentication Service**, a lightweight Java-based microservice designed to handle OAuth2 authentication for popular social login providers including **Google**, **GitHub**, **Facebook**, and more.
 
 Built using **Spring Boot** and **Spring Security**, it provides a modular, extensible, and secure solution for user authentication within distributed microservice architectures.
 

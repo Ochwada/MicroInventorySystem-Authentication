@@ -1,0 +1,14 @@
+services:
+  auth-service:
+    build: .
+    container_name: auth-service
+    ports:
+      - "9090:9090"
+    env_file:
+      - .env
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
