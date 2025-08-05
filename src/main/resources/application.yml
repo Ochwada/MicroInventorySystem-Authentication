@@ -1,6 +1,6 @@
 # Server configuration
 server:
-  port: 9090  # The port on which the OAuth2 microservice will run
+  port: 9099  # The port on which the OAuth2 microservice will run
 
 spring:
   security:
@@ -14,7 +14,7 @@ spring:
               - openid  # Required scope for OpenID Connect (used for authentication)
               - profile  # Access to the user's basic profile information
               - email  # Access to the user's email address
-            redirect-uri: http://localhost:9090/login/oauth2/code/google  # The callback URI after successful login.html
+            redirect-uri: http://localhost:9099/login/oauth2/code/google  # The callback URI after successful my_login.html
 
         provider:
           google:

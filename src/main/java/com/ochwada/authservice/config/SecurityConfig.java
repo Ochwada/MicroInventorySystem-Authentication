@@ -42,7 +42,7 @@ public class SecurityConfig {
                         // Custom login page path
                         .loginPage("/my_login")
                         // Redirect to dashboard after successful login
-                        .defaultSuccessUrl("/dashboard", true));  // Enables OAuth2 social login.html
+                        .defaultSuccessUrl("/dashboard", true));  // Enables OAuth2 social my_login.html
 
         // Build and return the configured filter chain
         return httpSecurity.build();

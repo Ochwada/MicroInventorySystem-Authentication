@@ -3,7 +3,7 @@
 ---
 ###  [Micro Inventory System 🍀 Overview Repository ](https://github.com/Ochwada/InventoryManagementSystem-MicroservicesArchitecture)
 For the Microservices ⬇️
-#### 🔗 [Microservice 0: Authentication Service](https://github.com/Ochwada/MicroInventorySystem-Product)
+#### 🔗 [Microservice 0: Authentication Service](https://github.com/Ochwada/MicroInventorySystem-Authentication)
 #### 🔗 [Microservice 1: Product Service](https://github.com/Ochwada/MicroInventorySystem-Product)
 #### 🔗 [Microservice 2: Inventory Service](https://github.com/Ochwada/MicroInventorySystem-Inventory)
 #### 🔗 [Microservice 3: Order Service](https://github.com/Ochwada/MicroInventorySystem-Order)
